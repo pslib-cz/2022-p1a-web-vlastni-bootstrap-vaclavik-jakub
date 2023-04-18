@@ -1,0 +1,6 @@
+.carousel {
+    border-radius: 25px; /* zaoblení hran carouselu */
+    max-width: 800px; /* maximální šířka carouselu */
+    margin: 0 auto; /* centrování carouselu */
+  }
+  
