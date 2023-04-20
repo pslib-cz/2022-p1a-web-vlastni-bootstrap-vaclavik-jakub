@@ -15,35 +15,42 @@
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Main Page\main-page-of-my-website.html" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><strong>Bleach</strong></a>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Second Page\protagonist-page.html">Protagonists</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Third Page\shinigami-page.html">Soul Reaper</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Fourth Page\quincy-page.html">Quincy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Fifth Page\hollow-and-others-page-page.html">Hollow</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <a class="nav-link" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Register Page\register-page.html" style="color:white">Sign In!</a>
-          </form>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../Main Page/main-page-of-my-website.html"><strong>Bleach</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../Second Page/protagonist-page.html">Protagonists</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Third Page/shinigami-page.html">Soul Reaper</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Fourth Page/quincy-page.html">Quincy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Fifth Page/hollow-and-others-page.html">Hollow</a>
+              </li>
+              
+            </ul>
+            <form>
+              <a class="nav-link" href="../Register Page/register-page.html">Sing Up!</a>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     </header>
+
+  </header>
     <main>
       <div class="container">
-        <h3>Who or what is Hollow?</h3>
-          <section class="card" style="background-color: bisque;">
+        <h3 style="padding: 8px;">Who or what is Hollow?</h3>
+          <section class="card p-2" style="background-color: bisque;">
             <article>
               In the anime Bleach, a Hollow is a term used to refer to spirits
                who were not sent to either Heaven or Hell and remain trapped in the human world.
@@ -56,10 +63,14 @@
                    These types of Hollows have different characteristics and abilities,
                    which are important for the story and battle scenes in the anime.
             </article>
-              <img src="" alt="Hollow">
+
+            <div style="text-align:center">
+              <img src="../Images/Hollow/hollow_bleach.webp" alt="Hollow" width="500" height="500">
+            </div>
+
             </section>
-          <h3>Types of Hollow</h3>
-          <section class="card" style="background-color: bisque;">
+          <h3 style="padding: 8px;">Types of Hollow</h3>
+          <section class="card p-2" style="background-color: bisque;">
             <div>
               <div style="float:left; width:50%;">
                 <div>
@@ -94,8 +105,8 @@
             </div>   
           </section>
 
-          <h3>Special Types of Hollow</h3>
-            <section class="card" style="background-color: bisque;">
+          <h3 style="padding: 8px;">Special Types of Hollow</h3>
+            <section class="card p-2" style="background-color: bisque;">
 
             </section>
       </div>

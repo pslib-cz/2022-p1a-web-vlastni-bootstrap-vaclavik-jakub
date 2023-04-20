@@ -25,63 +25,83 @@
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Main Page\main-page-of-my-website.html" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Bleach</a>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Second Page\protagonist-page.html">Protagonists</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Third Page\shinigami-page.html">Soul Reaper</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Fourth Page\quincy-page.html">Quincy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Fifth Page\hollow-and-others-page.html">Hollow</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <a class="nav-link" href="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Register Page\register-page.html" style="color:white">Sign In!</a>
-          </form>
-        </div>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../Main Page/main-page-of-my-website.html"><strong>Bleach</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../Second Page/protagonist-page.html">Protagonists</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Third Page/shinigami-page.html">Soul Reaper</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Fourth Page/quincy-page.html">Quincy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Fifth Page/hollow-and-others-page.html">Hollow</a>
+          </li>
+          
+        </ul>
+        <form>
+          <a class="nav-link" href="../Register Page/register-page.html">Sing Up!</a>
+        </form>
       </div>
-    </nav>
-    </header>
+    </div>
+  </nav>
+</header>
+
     <main>
       <div class="container" style="padding: 10px;">
         <h2>Introduction</h2>
-          <article class="card" style="background-color: bisque;">Bleach is a Japanese manga series written and illustrated by Tite Kubo.
+          <article class="card p-2" style="background-color: bisque;" >Bleach is a Japanese manga series written and illustrated by Tite Kubo.
            It was first published in 2001 and ran until 2016, with a total of 74 volumes released.
-           The manga became very popular and gained a worldwide fan base.</article>
+           The manga became very popular and gained a worldwide fan base.
           
-              <img src="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Images\tite_kubo.webp" alt="Tite Kubo">
-          
+           <div style="text-align:center">
+            <img src="../Images/Main/tite_kubo.webp" alt="Tite Kubo" style="padding: 10px;">
+          </div>
+        
+          </article>
+
               <br>
 
         
         <h2>What is Bleach about?</h2>
-          <article class="card" style="background-color: bisque;">Bleach is set in a fantasy world where there exists a spiritual realm and a world of humans.
+          <article class="card p-2" style="background-color: bisque;">Bleach is set in a fantasy world where there exists a spiritual realm and a world of humans.
             The story follows the main protagonist, teenager Ichigo Kurosaki, who gains the ability to see and communicate with ghosts. After meeting a Shinigami named Rukia Kuchiki,
-            Ichigo becomes a protector of the spirit world, fighting against Hollows - malevolent spirits who seek to harm both the spiritual realm and the world of humans.</article>
+            Ichigo becomes a protector of the spirit world, fighting against Hollows - malevolent spirits who seek to harm both the spiritual realm and the world of humans.
           
-              <img src="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Images\bleach-anime.webp" alt="Bleach">
+            <div style="text-align:center">
+              <img src="../Images/Main/bleach-anime.webp" alt="Bleach" style="padding: 10px;">
+            </div>
+            
+          </article>
+          
             
               <br>
 
       
         <h2>Anime adaptation</h2>
-          <article class="card" style="background-color: bisque;">Bleach was adapted into an anime series, which premiered in 2004 and ran until 2012.
+          <article class="card p-2" style="background-color: bisque;">Bleach was adapted into an anime series, which premiered in 2004 and ran until 2012.
             The anime has a total of 366 episodes, divided into 16 arcs.
             Each arc has a different number of episodes, with the first three seasons having 20-21 episodes, the next ten seasons having 16-26 episodes.
             Second season "Bleach: Thousand-Year Blood War" has only 12 episodes.
-            The Bleach anime was produced by Studio Pierrot and gained a huge following among anime fans.</article>
+            The Bleach anime was produced by Studio Pierrot and gained a huge following among anime fans.
           
-              <img src="C:\Workspace\2022-p1a-web-vlastni-bootstrap-vaclavik-jakub\Images\Bleach-TYBW.webp" alt="Bleach TYBW" width="800" >
+            <div style="text-align:center">
+              <img src="../Images/Main/Bleach-TYBW.webp" alt="Bleach TYBW" width="800" style="padding: 10px;">
+            </div>
+
+          </article>
           
+           
+
               <br>
 
       </div>
